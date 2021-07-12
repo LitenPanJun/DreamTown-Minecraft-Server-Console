@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>DTMCSC_DreamTown_Minecraft_Server_Console</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Authors>小潘菌</Authors>
+    <Company>幻梦之乡DreamTown工作室-DreamTown Studio</Company>
+    <Product>幻梦之乡MC服务器控制台-DTMCSC-DreamTown Minecraft Server Console</Product>
+    <FileVersion>0.1.21.712</FileVersion>
+    <AssemblyVersion>0.1.21.712</AssemblyVersion>
+    <RepositoryUrl>https://gitee.com/litenpanjun/DreamTown-Minecraft-Server-Console</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageReleaseNotes>0.x.x.x版本仅作开发初步预览，随时可能更新及出现异常导致崩溃，不可做稳定版使用！</PackageReleaseNotes>
+    <PackageTags>Alpha</PackageTags>
+    <PackageId>DTMCSC</PackageId>
+    <Version>0.0.1</Version>
+    <Copyright>幻梦之乡工作室版权所有 DreamTown Studio©2021</Copyright>
+    <Description>0.x.x.x版本仅作开发初步预览，随时可能更新及出现异常导致崩溃，不可做稳定版使用！
+一个小的自用MC开服器，极其简陋，不值一提
+由Minecraft幻梦之乡DreamTown工作室创始人一手敲出来的
+幻梦之乡工作室版权所有 DreamTown Studio©2021</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageIcon>icon.ico</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\DTMCSC-DreamTown_Minecraft_Server_Console.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\DTMCSC-DreamTown_Minecraft_Server_Console.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\DTMCSC-DreamTown_Minecraft_Server_Console.pdb" />
+    <None Include="icon.ico">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Release\netcoreapp3.1\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_DebugSymbolsOutputPath Remove="bin\Debug\netcoreapp3.1\DTMCSC-DreamTown_Minecraft_Server_Console.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\DTMCSC-DreamTown_Minecraft_Server_Console.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\DTMCSC-DreamTown_Minecraft_Server_Console.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\DTMCSC-DreamTown_Minecraft_Server_Console.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="UpdateLog.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="README.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
