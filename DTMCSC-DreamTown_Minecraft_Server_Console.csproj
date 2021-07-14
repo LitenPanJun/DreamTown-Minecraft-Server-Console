@@ -27,27 +27,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="bin\Debug\netcoreapp3.1\DTMCSC-DreamTown_Minecraft_Server_Console.dll" />
-    <None Include="bin\Debug\netcoreapp3.1\DTMCSC-DreamTown_Minecraft_Server_Console.exe" />
-    <None Include="bin\Debug\netcoreapp3.1\DTMCSC-DreamTown_Minecraft_Server_Console.pdb" />
+    <Compile Remove="bin\**" />
+    <EmbeddedResource Remove="bin\**" />
+    <None Remove="bin\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="icon.ico">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="bin\Release\netcoreapp3.1\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <_DebugSymbolsOutputPath Remove="bin\Debug\netcoreapp3.1\DTMCSC-DreamTown_Minecraft_Server_Console.pdb" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="bin\Debug\netcoreapp3.1\DTMCSC-DreamTown_Minecraft_Server_Console.deps.json" />
-    <Content Include="bin\Debug\netcoreapp3.1\DTMCSC-DreamTown_Minecraft_Server_Console.runtimeconfig.dev.json" />
-    <Content Include="bin\Debug\netcoreapp3.1\DTMCSC-DreamTown_Minecraft_Server_Console.runtimeconfig.json" />
   </ItemGroup>
 
   <ItemGroup>
