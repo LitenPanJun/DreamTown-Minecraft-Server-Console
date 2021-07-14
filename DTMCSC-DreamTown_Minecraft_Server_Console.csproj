@@ -8,9 +8,9 @@
     <Authors>小潘菌</Authors>
     <Company>幻梦之乡DreamTown工作室-DreamTown Studio</Company>
     <Product>幻梦之乡MC服务器控制台-DTMCSC-DreamTown Minecraft Server Console</Product>
-    <FileVersion>0.1.21.712</FileVersion>
-    <AssemblyVersion>0.1.21.712</AssemblyVersion>
-    <RepositoryUrl>https://gitee.com/litenpanjun/DreamTown-Minecraft-Server-Console</RepositoryUrl>
+    <FileVersion>0.1.21.714</FileVersion>
+    <AssemblyVersion>0.1.21.714</AssemblyVersion>
+    <RepositoryUrl>https://github.com/LitenPanJun/DreamTown-Minecraft-Server-Console</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageReleaseNotes>0.x.x.x版本仅作开发初步预览，随时可能更新及出现异常导致崩溃，不可做稳定版使用！</PackageReleaseNotes>
     <PackageTags>Alpha</PackageTags>
