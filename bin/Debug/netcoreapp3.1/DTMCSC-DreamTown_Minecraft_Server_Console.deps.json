@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DTMCSC-DreamTown_Minecraft_Server_Console/0.0.1": {
+        "runtime": {
+          "DTMCSC-DreamTown_Minecraft_Server_Console.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DTMCSC-DreamTown_Minecraft_Server_Console/0.0.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
